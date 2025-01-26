@@ -1,1 +1,1 @@
-![tea-house](https://github.com/user-attachments/assets/f91db1cd-d9d3-4246-a8ff-836ad36ff5b1)
+![tea-house](https://github.com/user-attachments/assets/e84d8185-b593-4d92-9c59-3609c8409c5e)

@@ -120,21 +120,17 @@
       </section>
 
       <!-- Great Product Section -->
-      <section class="my-20 grid lg:grid-cols-2 gap-14 items-center">
+      <section class="great-product-container">
         <!-- Image Content -->
-        <div class="grid grid-cols-2 grid-rows-3 gap-4">
-          <div
-            class="h-36 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"
-          ></div>
-          <div class="row-span-2 rounded-xl bg-orange-50">
+        <div class="great-product-img">
+          <div class="great-product-card"></div>
+          <div class="great-product-card-img">
             <img class="mx-auto my-5" src="images/fresh-1.png" alt="" />
           </div>
-          <div class="row-span-2 rounded-xl bg-stone-100">
+          <div class="great-product-card-img">
             <img class="mx-auto my-5" src="images/fresh-2.png" alt="" />
           </div>
-          <div
-            class="h-36 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"
-          ></div>
+          <div class="great-product-card"></div>
         </div>
 
         <!-- Text Content -->
@@ -166,14 +162,10 @@
 
       <!-- Client Section -->
       <section class="mb-24">
-        <div
-          class="grid gap-7 lg:grid-cols-2 py-12 px-8 md:py-20 md:px-16 rounded-xl bg-gradient-to-r from-orange-500 to-red-700 items-center"
-        >
+        <div class="client">
           <!-- Text Content -->
-          <div class="lg:w-5/6 relative max-sm:text-center">
-            <h2 class="lg:text-5xl text-3xl font-bold text-white">
-              Meet Our Super Clients
-            </h2>
+          <div class="client-text-content">
+            <h2 class="client-title">Meet Our Super Clients</h2>
             <p class="text-white my-7">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -181,15 +173,12 @@
               slightly believable.
             </p>
             <div>
-              <button class="py-4 px-7 rounded-lg bg-white">
-                <span
-                  class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FF8938] to-[#FF0000]"
-                  >Show All</span
-                >
+              <button class="client-btn">
+                <span class="client-btn-text">Show All</span>
               </button>
             </div>
 
-            <div class="absolute -bottom-20 md:left-20 left-0">
+            <div class="bg-client-text">
               <img src="images/bg_cup.png" />
             </div>
           </div>
@@ -198,13 +187,8 @@
           <div class="relative">
             <!-- Top Card -->
             <div class="relative">
-              <div
-                class="pt-12 pb-5 px-5 bg-white rounded-lg flex items-center opacity-40"
-              >
-                <img
-                  class="absolute -top-4 -left-4 border-3 border-white rounded-full"
-                  src="images/client.png"
-                />
+              <div class="client-review-card">
+                <img class="client-review-card-img" src="images/client.png" />
                 <div>
                   <p class="text-gray-500 mb-5">
                     We are providing the best and suitable home insurance
@@ -224,13 +208,8 @@
 
             <!-- Middle Card -->
             <div class="absolute top-28 md:right-12 md:-left-12 z-1">
-              <div
-                class="pt-12 pb-5 px-5 bg-white rounded-lg flex items-center"
-              >
-                <img
-                  class="absolute -top-4 -left-4 border-3 border-white rounded-full"
-                  src="images/client.png"
-                />
+              <div class="client-review-card-middle">
+                <img class="client-review-card-img" src="images/client.png" />
                 <div>
                   <p class="text-gray-500 mb-5">
                     We are providing the best and suitable home insurance
@@ -250,13 +229,8 @@
 
             <!-- Bottom Card -->
             <div class="relative">
-              <div
-                class="pt-12 pb-5 px-5 mt-7 opacity-40 bg-white rounded-lg flex items-center"
-              >
-                <img
-                  class="absolute -top-4 -left-4 border-3 border-white rounded-full"
-                  src="images/client.png"
-                />
+              <div class="client-review-card">
+                <img class="client-review-card-img" src="images/client.png" />
                 <div>
                   <p class="text-gray-500 mb-5">
                     We are providing the best and suitable home insurance
@@ -279,19 +253,17 @@
 
       <!-- News Section -->
       <section class="mb-24">
-        <h2 class="text-center text-3xl md:text-5xl font-bold mb-5">
-          News & Events
-        </h2>
-        <p class="text-gray-500 text-center w-5/6 m-auto mb-12">
+        <h2 class="news-heading">News & Events</h2>
+        <p class="news-description">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
 
         <!-- Card Container -->
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="news-card-container">
           <!-- Card -->
-          <div class="p-5 rounded-lg border border-gray-200">
+          <div class="news-card">
             <img src="images/news-1.png" alt="" />
             <p class="mt-5 text-gray-500">Feb 05, 2027</p>
             <h5 class="font-bold text-xl">Collecting 8 points for discount</h5>
@@ -300,7 +272,7 @@
             </p>
             <h6 class="font-bold">Learn More</h6>
           </div>
-          <div class="p-5 rounded-lg border border-gray-200">
+          <div class="news-card">
             <img src="images/news-2.png" alt="" />
             <p class="mt-5 text-gray-500">Feb 05, 2027</p>
             <h5 class="font-bold text-xl">Collecting 8 points for discount</h5>
@@ -309,7 +281,7 @@
             </p>
             <h6 class="font-bold">Learn More</h6>
           </div>
-          <div class="p-5 rounded-lg border border-gray-200">
+          <div class="news-card">
             <img src="images/news-3.png" alt="" />
             <p class="mt-5 text-gray-500">Feb 05, 2027</p>
             <h5 class="font-bold text-xl">Collecting 8 points for discount</h5>
@@ -323,8 +295,8 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-gradient-to-l from-[#FF0000]/10 to-[#FF8938]/10">
-      <div class="max-w-screen-xl mx-auto px-6 sm:px-24 lg:px-28 py-16">
+    <footer class="footer-bg">
+      <div class="footer">
         <!-- Logo -->
         <div class="flex justify-between">
           <img src="images/cup.png" />
@@ -332,38 +304,34 @@
             <p class="max-sm:mb-4 text-xl text-gray-500">
               Ready to get strated?
             </p>
-            <button
-              class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-2 rounded-lg text-white font-bold"
-            >
-              Get Started
-            </button>
+            <button class="btn-primary">Get Started</button>
           </div>
         </div>
 
         <!-- Links -->
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 mt-20">
+        <div class="footer-link">
           <!-- First Column -->
-          <div class="text-center sm:text-left mb-12">
+          <div class="footer-link-col">
             <h3 class="text-xl font-semibold">Quick Links</h3>
             <br />
             <ul>
               <li class="text-gray-500">
-                <a class="hover:text-orange-500" href="#">Home</a>
+                <a class="footer-hover" href="#">Home</a>
               </li>
               <li class="text-gray-500 my-3">
-                <a class="hover:text-orange-500" href="#">About Us</a>
+                <a class="footer-hover" href="#">About Us</a>
               </li>
               <li class="text-gray-500 mb-3">
-                <a class="hover:text-orange-500" href="#">Insurance</a>
+                <a class="footer-hover" href="#">Insurance</a>
               </li>
               <li class="text-gray-500">
-                <a class="hover:text-orange-500" href="#">Privacy Policy</a>
+                <a class="footer-hover" href="#">Privacy Policy</a>
               </li>
             </ul>
           </div>
 
           <!-- Second Column -->
-          <div class="text-center sm:text-left mb-12">
+          <div class="footer-link-col">
             <h3 class="text-xl font-semibold">Our Service</h3>
             <br />
             <p class="text-gray-500">Life Insurance</p>
@@ -373,7 +341,7 @@
           </div>
 
           <!-- Third Column -->
-          <div class="text-center sm:text-left mb-12">
+          <div class="footer-link-col">
             <h3 class="text-xl font-semibold">Help</h3>
             <br />
             <p class="text-gray-500">FAQs</p>
@@ -391,24 +359,17 @@
                     type="email"
                     placeholder="Email address"
                   />
-                  <i
-                    class="fa-solid fa-chevron-right bg-gradient-to-r from-orange-500 to-red-600 text-white p-2 w-8 h-8 rounded-full text-center"
-                  >
-                  </i>
+                  <i class="fa-solid fa-chevron-right footer-i-submit"> </i>
                 </div>
               </div>
 
               <!-- Social Icon -->
-              <div class="max-sm:flex text-gray-600 max-sm:justify-center">
+              <div class="footer-social-iconbox">
                 <div class="flex gap-6">
+                  <i class="fa-brands fa-facebook-f footer-social-icon"></i>
+                  <i class="fa-brands fa-twitter footer-social-icon"></i>
                   <i
-                    class="cursor-pointer fa-brands fa-facebook-f hover:text-orange-500"
-                  ></i>
-                  <i
-                    class="cursor-pointer fa-brands fa-twitter hover:text-orange-500"
-                  ></i>
-                  <i
-                    class="cursor-pointer fa-brands fa-square-instagram hover:text-orange-500"
+                    class="fa-brands fa-square-instagram footer-social-icon"
                   ></i>
                 </div>
               </div>
@@ -417,7 +378,7 @@
         </div>
 
         <!-- Copyrights -->
-        <p class="mt-24 text-center text-gray-600">
+        <p class="footer-copyrights">
           &copy; 2025 Hamad Ismail - All rights reserved.
         </p>
       </div>
